@@ -1,6 +1,6 @@
 ## Sudodoki
 
-![Screenshot of prompt](sudodoki.github.io/sudodoki-public-assets/omf-sudodoki/Screenshot.png)
+![Screenshot of prompt](http://sudodoki.github.io/sudodoki-public-assets/omf-sudodoki/Screenshot.png)
 
 #### Prerequisites
 + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
