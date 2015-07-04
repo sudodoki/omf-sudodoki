@@ -1,0 +1,7 @@
+#!/bin/zsh
+if [ "$(print -l *.js(.N) 2>&1 | wc -w | tr -d ' ')" != "0" ] || [[ -f package.json  ||  -f Gruntfile.json ||  -f grunt.js ||  -f bower.json || -f gulpfile.js ]] ; then 
+  ref="node `node -v`"
+else
+ ref=''
+fi
+echo $ref

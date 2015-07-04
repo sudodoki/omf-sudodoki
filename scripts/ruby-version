@@ -1,0 +1,7 @@
+#!/bin/zsh
+if [ "$(print -l *.rb(.N) 2>&1 | wc -w | tr -d ' ')" != "0" ] || [[ -f Gemfile  ||  -f Gemfile.lock ||  -f config.ru ]] ; then 
+  xef="$(~/.rvm/bin/rvm-prompt)"
+else
+  xef=''
+fi
+echo $xef
