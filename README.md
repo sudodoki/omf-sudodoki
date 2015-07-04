@@ -24,5 +24,5 @@ Edit `~/.config/fish/config.fish` & set
 ```
 Theme 'sudodoki'
 ```
-Be sure to have `scripts/ruby-version` in your $PATH (maybe, copied to `usr/bin/ruby-version)
-Be sure to have `scripts/node-version` in your $PATH (maybe, copied to `usr/bin/node-version)
+Be sure to have `scripts/ruby-version` in your $PATH (maybe, copied to `usr/bin/ruby-version`)
+Be sure to have `scripts/node-version` in your $PATH (maybe, copied to `usr/bin/node-version`)
